@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Knowledge543</string>
+    <string name="Question1">1)  Math: 0 / 1 = </string>
+    <string name="Question2">2) Chemical Formula: Water includes which two chemical element?</string>
+    <string name="Question3">3) The deepest lake in the world is ...</string>
+    <string name="Question4">4) The biggest country in the world is ... </string>
+    <string name="Question5">5) The fastest animal in the world is the ...</string>
+    <string name="Question6">6) Which language speakers is the most?  </string>
+</resources>

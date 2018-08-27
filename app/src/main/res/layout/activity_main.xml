@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1"
+    tools:context="com.example.android.knowledge543.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/add_name_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textMultiLine"
+            android:textSize="23sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="Question:"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/question"
+            android:background="#81D4FA"
+            android:text="@string/Question1" />
+
+
+        <EditText
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            style="@style/question"
+            android:background="#81D4FA"
+            android:text="@string/Question2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/c6_1"
+                style="@style/radiobuttom"
+                android:text="H2" />
+
+            <CheckBox
+                android:id="@+id/c6_2"
+                style="@style/radiobuttom"
+                android:text="C" />
+
+            <CheckBox
+                android:id="@+id/c6_3"
+                style="@style/radiobuttom"
+                android:text="O" />
+
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/question"
+            android:background="#FF9800"
+            android:text="@string/Question3" />
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/a1"
+                style="@style/radiobuttom"
+                android:text="Lake Titicaca" />
+
+            <RadioButton
+                android:id="@+id/a2"
+                style="@style/radiobuttom"
+                android:text="Aral Sea" />
+
+            <RadioButton
+                android:id="@+id/correct1"
+                style="@style/radiobuttom"
+                android:text="Lake Baikal" />
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/question"
+            android:background="#FF9800"
+            android:text="@string/Question4" />
+
+        <RadioGroup
+            android:id="@+id/rg2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/correct2"
+                style="@style/radiobuttom"
+                android:text="Russia" />
+
+            <RadioButton
+                style="@style/radiobuttom"
+                android:text="USA" />
+
+            <RadioButton
+                style="@style/radiobuttom"
+                android:text="China" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/question"
+            android:background="#FF9800"
+            android:text="@string/Question5" />
+
+        <RadioGroup
+            android:id="@+id/rg3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/correct3"
+                style="@style/radiobuttom"
+                android:text="Gepard" />
+
+            <RadioButton
+                style="@style/radiobuttom"
+                android:text="Puma" />
+
+            <RadioButton
+                style="@style/radiobuttom"
+                android:text="Bouquet" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/question"
+            android:background="#FF9800"
+            android:text="@string/Question6" />
+
+        <RadioGroup
+            android:id="@+id/rg4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/correct4"
+                style="@style/radiobuttom"
+                android:text="Mandarin" />
+
+            <RadioButton
+                style="@style/radiobuttom"
+                android:text="Spainish" />
+
+            <RadioButton
+                style="@style/radiobuttom"
+                android:text="Hindu" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/sumit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+
+</ScrollView>
